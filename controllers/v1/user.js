@@ -1,7 +1,7 @@
 const userModel = require("../../models/user");
 const banUserModel = require("../../models/ban-phone");
 const courseUserModel = require("../../models/course-user");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 // exports.create = async (req, res, next) => {
 //   const { name, description, shortName, categoryID, price } = req.body;
